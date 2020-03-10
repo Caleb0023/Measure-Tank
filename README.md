@@ -1,5 +1,5 @@
 # Measure-Tank
-este es el repositorio del proyecto de el medidor de tanque en donde calculamos el nivel de agua del tanque
+Este repositorio es del proyecto de medidor de tanque en donde calculamos su nivel de agua y automatizamos su llenado.
 # Descarga el IDE de Arduino
 https://www.arduino.cc/en/main/software
 # Abre el IDE,copia,pega y compila el archivo
