@@ -1,0 +1,37 @@
+/* html , body {
+    height: 100%;
+}
+body {
+    display: flex;
+    align-items: center;
+    background: rgb(239, 242, 243);
+} */
+
+
+/*  css de el tanque */
+#tank {
+    border-style: solid;
+    border-width: 0px 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 400px;
+    position: relative;
+     border-radius: 0px 0px 10px 10px;
+}
+.water {
+  background: url(https://i.imgur.com/gemQUE2.png);
+  background-position: top right;
+/*   background-color: red; */
+  position:absolute;
+  bottom: 0px;
+  width: 280px;
+  height: 50px;
+  border-radius: 0px 0px 5px 5px;
+  z-index: -1;
+}
+
+#rise {
+  background-position: top left;
+  transition: all 3s ease-out;
+}

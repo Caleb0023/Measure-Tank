@@ -4,6 +4,7 @@ if (socket) {
     console.log('estoy conectado al socket del servidor');
     
 }
+ /* esto es lo que me permite mostrar los datos en centimetros de mi tarjeta */
 
 let monitor = document.getElementById('monitor')
 socket.on('datos-proximity', (data) =>{
@@ -12,9 +13,7 @@ socket.on('datos-proximity', (data) =>{
         console.log('wow hay mucha agua');
     }
      monitor.innerHTML = `
-     <h1>${data} cm</h1>
-     <div class="progress">
-     <div class="progress-bar" role="progressbar" style=" width: ${numero}%;" aria-valuenow="${numero}" aria-valuemin="0" aria-valuemax="250">${numero}%</div>
-   </div>
+     <h1>${data} cm</h1> 
      `
 })
+
